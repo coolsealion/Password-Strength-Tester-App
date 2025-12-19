@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3fee79;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.input-box {
+    margin-bottom : 15px;
+}
+button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    background-color: #0d5a11;
+    color: burlywood;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #55555500;
+}
+.password-strength {
+    margin-top: 15px;
+}
+.password-strength span {
+    font-weight: bold;
+}
+.password-strength.very-weak span {
+    color: red;
+}
+.password-strength.weak span {
+    color: red;
+}
+.password-strength.moderate span {
+    color: orange;
+}
+.password-strength.strong span {
+    color: rgb(84, 207, 84);
+}
+.password-strength.very-strong span {
+    color : green;
+}
+.result {
+    margin-top : 15px;
+    font-weight : bold;
+}
+.result.valid {
+    color : green;
+}
+.result.invalid {
+    color : red;
+}
+.result.error {
+    color : orangered;
+}
+.loading {
+    margin-top : 15px;
+    font-style : italic;
+}
+.loading span {
+    color : burlywood;
+}
+.loading.hidden {
+    display : none;
+}
+.error.message {
+    margin-top : 15px;
+    color : red;
+    font-weight : bold;
+}
+.error.message.hidden {
+    display : none;
+}
+.success.message {
+    margin-top : 15px;
+    color : green;
+    font-weight : bold;
+}
+.success.message.hidden {
+    display : none;
+}
+.link {
+    margin-top : 20px;
+    text-align : center;
+}
+.link a {
+    color : burlywood;
+    text-decoration : none;
+}
+.link a:hover {
+    text-decoration : underline;
+}
+.footer {
+    margin-top : 30px;
+    text-align : center;
+    font-size : 0.9em;
+    color : burlywood;
+}
+.footer a {
+    color : burlywood;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
